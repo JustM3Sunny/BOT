@@ -35,7 +35,9 @@ bot.on('text', async (ctx) => {
         await ctx.reply('😞 Sorry, AI kuch reply nahi de paaya.');
     }
 });
-
+app.get('/',(req,res)=>{
+    res.status(200);
+})
 bot.launch();
 app.listen(3000, () => {
     console.log('✅ Server + Bot running on http://localhost:3000');
