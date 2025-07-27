@@ -5,7 +5,7 @@ import { Telegraf } from 'telegraf';
 const app = express();
 app.use(express.json());
 
-const token = 'your_token';
+const token = '7864659740:AAG-sRx4DonxufjGD5qoLLegHUQV0c_MSng'; //replace with ur token
 const bot = new Telegraf(token);
 
 const aiUrl = 'https://api.llm7.io/v1/chat/completions';
